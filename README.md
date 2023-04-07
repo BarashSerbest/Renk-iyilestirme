@@ -10,9 +10,9 @@ her pikselin renk değerlerini ayarlamak ve son olarak iyileştirilmiş resmi ka
 programın temel işlevlerini ve çeşitli işlemler için gereken veri yapılarını içerirken, 
 System.Drawing kütüphanesi, programın resim dosyalarıyla çalışabilmesi için gerekli olan sınıfları içerir.
 
-  Program, bir resim dosyasını yüklemek için Bitmap sınıfını kullanır. Resmin her pikselinin 
-renk değerlerine erişmek için GetPixel() yöntemi kullanılır. Renk değerlerini ayarlamak için 
-SetPixel() yöntemi kullanılır.
+  Programda, bir resim dosyasını yüklemek için Bitmap sınıfını kullanıldı. Resmin her pikselinin 
+renk değerlerine erişmek için GetPixel() yöntemi kullanıldı. Renk değerlerini ayarlamak için 
+SetPixel() yöntemi kullanıldı.
 
   Program, resmin renk tonlamasını iyileştirmek için, resmin ortalama rengini ve en karanlık ve 
 en açık renkleri hesaplar. Ardından, her pikselin renk değerlerini, pikselin orijinal renk değeri 
@@ -28,7 +28,7 @@ yeniden hesaplamak için, en büyük ve en küçük renk arasındaki farkı hesa
 renk bileşenlerinin en büyüğü hangisi ise, diğer iki bileşen arasındaki farkı bu bileşenden çıkararak
 yeniden hesaplar. Bu işlem, resmin renk dengesini düzeltir.
 
-  Son olarak, iyileştirilmiş resim dosyası, Save() yöntemi kullanılarak kaydedilir.
+  Son olarak, iyileştirilmiş resim dosyası, Save() yöntemi kullanılarak kaydedildi.
 
   Algoritmanın çalışma zamanı, iki döngü içerdiği için giriş resminin boyutuna bağlı olarak değişir. 
 İlk döngü, görüntüdeki her piksel için renk doygunluğu iyileştirmesi yapar. İkinci döngü, renk dengesi 
